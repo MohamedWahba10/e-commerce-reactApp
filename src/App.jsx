@@ -38,7 +38,7 @@ let routers = createBrowserRouter([
       { path: "products/details/:id", element: <ProtectedRoutes> <Details /> </ProtectedRoutes> },
       { path: "brands/brandsDetails/:id", element: <ProtectedRoutes> <BrandDetails/> </ProtectedRoutes> },
       { path: "allorders", element: <ProtectedRoutes> <Allorders /> </ProtectedRoutes> },
-      { path: "*", element: <NotFound /> }
+      { path: "*", element: <Register /> }
 
     ]
   }
